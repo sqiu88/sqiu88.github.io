@@ -46,12 +46,15 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Stephen Qiu
+                Stephen Qiu WIP Website
               </h1>
               <p>I am a first-year Masters student in Robotics at the <a href="https://www.upenn.edu/">Univeristy of Pennsylvania</a>, affiliated with GRASP Labs.
               </p>
               <p>
                 My interests lies in the field of robot control and manipulators, as well as the design of embedded systems and edge device design
+              </p>
+              <p>
+                I'm interested in robotic manipulators, control systems, machine learning, embedded systems programming, robotics design.
               </p>
               <p>
                 I have an BS in Mechanical Engineering as well as a minor in Computer Science from <a href="https://www.utk.edu/">The Univeristy of Tennessee, Knoxville</a>, where I was a research assistant for Dr. Caleb Rucker as part of <a href="https://sites.google.com/view/reach-robotics-lab">REACH Robotics Lab</a> as well as a research assistant for Dr. Kwai Wong as a part of  <a href="https://nics.utk.edu/">NICS</a> 
@@ -74,9 +77,6 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
-              <p>
-                I'm interested in robotic manipulators, control systems, machine learning, embedded systems programming, robotics design.
-              </p>
             </td>
           </tr>
         </table>
@@ -98,7 +98,7 @@
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
               {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              <a href="{{post.arxiv}}">paper</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
@@ -153,7 +153,7 @@
               <br>
               <em>{{post.categories}} {{post.course}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{ post.startdate | date: "%m/%Y" }} - {{ post.enddate | date: "%m/%Y"}}
 
               <br>
               {% if post.website %}
