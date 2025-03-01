@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "PyMAGMA: A Python Interface for MAGMA"
+date:   2023-08-09 22:21:59 +00:00
+image: /images/pairwise.png
+categories: research
+author: "stevo"
+authors: "Halloy, Julian and <strong>Qiu, Stephen</strong> and Tomov, Stanimire and Wong, Kwai"
+venue: "ACM PEARC"
+arxiv: "https://dl.acm.org/doi/10.1145/3626203.3670607"
+
+---
+PyMagma is a python interface into MAGMA, a collection next-generation linear algebra libraries for heterogeneous computing. Theis allows access to high performance linear algebra conputations through a simple python interface.

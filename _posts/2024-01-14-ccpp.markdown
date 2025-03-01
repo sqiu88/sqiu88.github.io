@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Design of Transmission Tubes for Surgical Concentric Push-Pull Robots"
+date:   2024-03-14 22:21:59 +00:00
+image: /images/tubes.png
+categories: research
+author: "Stevo"
+authors: "K. T. Dang, <strong>Qiu S.</strong>, et al."
+venue: "International Symposium on Medical Robotics"
+arxiv: https://ieeexplore.ieee.org/document/10585572
+
+---
+
+We present new ways for the design of push-pull concentric tubes, allowing for better designs that achieve high axial and torsional stiffnesses while maintaining low bending stress. 

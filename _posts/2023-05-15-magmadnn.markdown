@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "MagmaDNN"
+date:   2023-05-14 22:21:59 +00:00
+image: /images/modecfg.png
+categories: UTK
+author: "stevo"
+
+---
+Developed a machine learning framework using C++ with functionalities such as MLP, CNNs, RNNs. Able toutilize the CuDNN framework to allow for faster computational speeds. 
