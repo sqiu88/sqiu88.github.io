@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Nvidia Jetbot"
+date:   2023-04-15 22:21:59 +00:00
+image: /images/placeholder.png
+categories: UTK
+author: "stevo"
+code: "https://github.com/franklinzhang12/jetbot"
+video: "https://drive.google.com/file/d/1IJzyQy3jSgYhfA28cJU5B-9gjmJCGB-P/view?resourcekey"
+
+---
+Developed an autonomous vehicle using a Jetson Nano as the main controller and simple parts from Amazon as well as 3D printed parts. Used Nvidia libraries to run inference on live camera streams allowing for capabilities such as line following and object avoidance using our own trained models.

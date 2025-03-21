@@ -2,7 +2,7 @@
 layout: post
 title:  "Design of Transmission Tubes for Surgical Concentric Push-Pull Robots"
 date:   2024-03-14 22:21:59 +00:00
-image: /images/tubes.png
+image: /images/cppr.gif
 categories: research
 author: "Stevo"
 authors: "K. T. Dang, <strong>Qiu S.</strong>, et al."
