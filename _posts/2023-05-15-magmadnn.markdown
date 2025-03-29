@@ -2,10 +2,10 @@
 layout: post
 title:  "MagmaDNN"
 date:   2023-05-14 22:21:59 +00:00
-image: /images/modecfg.png
+image: /images/magmadnn.png
 categories: UTK
 author: "stevo"
 code: "https://bitbucket.org/icl/magmadnn/src/master/"
 
 ---
-Developed a machine learning framework using C++ with functionalities such as MLP, CNNs, RNNs. Able toutilize the CuDNN framework to allow for faster computational speeds. 
+Developed a machine learning framework in C++ with functionalities such as MLP, CNNs, RNNs. The code utilizes the CuDNN framework as well as the MAGMA library to allow for faster computational speeds using modern GPUs

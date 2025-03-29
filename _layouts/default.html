@@ -48,13 +48,11 @@
               <h1>
                 Stephen Qiu
               </h1>
-              <p>I am a first-year Masters student in Robotics at the <a href="https://www.upenn.edu/" rel="external nofollow noopener" target="_blank">Univeristy of Pennsylvania</a>, affiliated with GRASP Labs.
+              <p>I am a first-year Masters student pursueing a Masters in Robotics at the <a href="https://www.upenn.edu/" rel="external nofollow noopener" target="_blank">Univeristy of Pennsylvania</a>, affiliated with GRASP Labs.
               </p>
               <p>
-                My interests lies in the field of robot control and manipulators, as well as the design of embedded systems and edge device design
-              </p>
+                I am interested in robot control, robotic manipulators, and embedded systems. My focus includes control systems, robotics design, machine learning applications, and embedded systems programming.              </p>
               <p>
-                I'm interested in robotic manipulators, control systems, machine learning, embedded systems programming, robotics design.
               </p>
               <p>
                 I have an BS in Mechanical Engineering as well as a minor in Computer Science from <a href="https://www.utk.edu/" rel="external nofollow noopener" target="_blank">The Univeristy of Tennessee, Knoxville</a>, where I was a research assistant for Dr. Caleb Rucker as part of <a href="https://sites.google.com/view/reach-robotics-lab" rel="external nofollow noopener" target="_blank">REACH Robotics Lab</a> as well as a research assistant for Dr. Kwai Wong as a part of  <a href="https://nics.utk.edu/" rel="external nofollow noopener" target="_blank">NICS</a> 
@@ -154,9 +152,10 @@
               <br>
               <em>{{post.categories}} {{post.course}}</em>
               <br>
+              {% if post.startdate  %}
               {{ post.startdate | date: "%m/%Y" }} - {{ post.enddate | date: "%m/%Y"}}
-
               <br>
+              {% endif %} 
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
               {% endif %}
@@ -201,7 +200,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://leonidk.com/">here</a>
+                Design and source code from <a style="font-size:small;" href="https://leonidk.com/" rel="external nofollow noopener" target="_blank">here</a>
               </p>
             </td>
           </tr>

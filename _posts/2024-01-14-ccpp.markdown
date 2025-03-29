@@ -11,4 +11,4 @@ arxiv: https://ieeexplore.ieee.org/document/10585572
 
 ---
 
-We present new ways for the design of push-pull concentric tubes, allowing for better designs that achieve high axial and torsional stiffnesses while maintaining low bending stress. 
+We present new ways for the design of concentric push-pull tubes for surgical uses, allowing for better designs that achieve high axial and torsional stiffnesses while maintaining low bending stress. 

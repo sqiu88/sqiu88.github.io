@@ -8,4 +8,4 @@ course: "Senior Design"
 poster: "./pdfs/senior_proj.png"
 
 ---
-Developed a control system integrated with industrial grade motors to create a system to wind and unwind spools of film for Eastman Company. Create a graphical interface to go along with the control system to be able to have user input desired speeds and tensions for the whole system.
+Developed a control system integrated with industrial grade motors to create a system to wind and unwind spools of film for Eastman Company. Created and designed the electronical system as well as a graphical interface to go along with the control system to be able to have user input desired speeds and tensions for the whole system.

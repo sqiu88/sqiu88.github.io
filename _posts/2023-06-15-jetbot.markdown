@@ -2,7 +2,7 @@
 layout: post
 title:  "Nvidia Jetbot"
 date:   2023-04-15 22:21:59 +00:00
-image: /images/placeholder.png
+image: /images/jetbot.jpg
 categories: UTK
 author: "stevo"
 code: "https://github.com/franklinzhang12/jetbot"
